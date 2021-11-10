@@ -1,0 +1,15 @@
+.container ul {
+  float: left;
+  list-style: none;
+}
+
+table {
+  font-size: larger;
+}
+
+table td,
+th {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #dddddd;
+}
