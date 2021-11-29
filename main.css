@@ -6,10 +6,28 @@
 table {
   font-size: larger;
 }
+table a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
 
 table td,
 th {
   padding: 8px;
   text-align: left;
   border: 1px solid #dddddd;
+}
+button a:hover {
+  text-decoration: none;
+}
+button:hover {
+  cursor: pointer;
+}
+
+#getId {
+  visibility: hidden;
 }

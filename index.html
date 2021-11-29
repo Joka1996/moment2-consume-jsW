@@ -9,15 +9,51 @@
   </head>
   <body>
     <div class="container">
-      <h1>hello!</h1>
+      <h1>Moment 2 i JavaScriptbaserad Webbutveckling</h1>
       <table id="output">
         <tr>
-          <th>ID</th>
-          <th>KursID</th>
+          <th>Kurskod</th>
           <th>Kursnamn</th>
-          <th>Period</th>
+          <th>Kursplan</th>
+          <th>Progression</th>
+          <th>Termin</th>
+          <th>Radera</th>
+          <th>Uppdatera</th>
         </tr>
       </table>
+    </div>
+    <div class="addForm">
+      <h2>Lägg till kurs</h2>
+      <form>
+        <label for="Kurskod">Kurskod:</label><br />
+        <input type="text" id="Kurskod" name="Kurskod" /><br />
+        <label for="Kursnamn">Kursnamn:</label><br />
+        <input type="text" id="Kursnamn" name="Kursnamn" /><br />
+        <label for="Kursplan">Kursplan:</label><br />
+        <input type="text" id="Kursplan" name="Kursplan" /><br />
+        <label for="Progression">Progression:</label><br />
+        <input type="text" id="Progression" name="Progression" /><br />
+        <label for="Termin">Termin:</label><br />
+        <input type="text" id="Termin" name="Termin" /><br />
+        <input type="submit" value="Lägg till kurs" id="addBtn" />
+      </form>
+    </div>
+    <div class="addForm">
+      <h2>Uppdatera kurs</h2>
+      <form id="updateForm">
+        <input type="text" id="getId" name="getId" /><br />
+        <label for="upKurskod">Kurskod:</label><br />
+        <input type="text" id="upKurskod" name="upKurskod" /><br />
+        <label for="upKursnamn">Kursnamn:</label><br />
+        <input type="text" id="upKursnamn" name="upKursnamn" /><br />
+        <label for="upKursplan">Kursplan:</label><br />
+        <input type="text" id="upKursplan" name="upKursplan" /><br />
+        <label for="upProgression">Progression:</label><br />
+        <input type="text" id="upProgression" name="upProgression" /><br />
+        <label for="upTermin">Termin:</label><br />
+        <input type="text" id="upTermin" name="upTermin" /><br />
+        <input type="submit" value="Uppdatera kurs" id="upBtn" />
+      </form>
     </div>
     <script src="main.js"></script>
   </body>
